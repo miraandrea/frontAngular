@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 100%;
+}
+
+.logo {
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.body {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-container-wrapper {
+    width: 489px;
+    padding: 41px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 1px #1235a3, 8px 8px 0px 0px #335271, 12px 12px 10px 0px #2f4dab;
+    position: relative;
+    padding-top: 95px;
+}
+
+.login-container-wrapper .logo {
+    text-align: center;
+    position: absolute;
+    top: -42px;
+    margin: 0 auto;
+    width: 25%;
+    left: 37.5%;
+    border-radius: 50%;
+    background-color: #2d3e75;
+    padding: 25px;
+    box-shadow: 0px 0px 9px 2px #2d3e75;
+}
+
+.btnLogin{
+    display: flex;
+    justify-content: space-around;
+}
